@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Hide!",
+  "version": "0.0.1",
+  
+  "icons": { "128": "cloud.png" },
+
+  "content_scripts": [
+    {
+      "matches": ["*://answers.onstartups.com/*",
+                  "*://*.askubuntu.com/*",
+                  "*://*.mathoverflow.com/*",
+                  "*://*.mathoverflow.net/*",
+                  "*://*.serverfault.com/*",
+                  "*://*.stackapps.com/*",
+                  "*://*.stackexchange.com/*",
+                  "*://*.stackoverflow.com/*",
+                  "*://*.superuser.com/*"],
+      "css": ["hide-so.css"]
+    }, { 
+      "matches": ["*://*.udacity.com/*"],
+      "css": ["hide-uda.css"]
+    }
+  ]
+}
