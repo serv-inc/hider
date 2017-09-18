@@ -1,0 +1,8 @@
+/** hide news */
+.js-zci-link--news {
+    display: none !important;
+}
+/** hide videos */
+.js-zci-link--videos {
+    display: none !important;
+}

@@ -1,0 +1,4 @@
+/** hide news */
+a[href*="tbm=nws"] {
+    display: none !important;
+}

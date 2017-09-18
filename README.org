@@ -1,6 +1,9 @@
 * Hide!
-  Hide several webpage elements
+  Hide several nonproductive webpage elements
 ** Versions
+*** 0.1.0
+**** Lacked
+     hiding of news tabs for google and ddg and videos for ddg
 *** 0.0.1
     1
 ** Credits
