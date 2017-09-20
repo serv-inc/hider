@@ -1,6 +1,9 @@
 * Hide!
   Hide several nonproductive webpage elements
 ** Versions
+*** 0.1.1
+**** Failed
+     to work on some versions of duckduckgo
 *** 0.1.0
 **** Lacked
      hiding of news tabs for google and ddg and videos for ddg

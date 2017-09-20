@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Hide!",
-  "version": "0.1.0",
+  "version": "0.1.1",
   
   "icons": { "128": "cloud.png" },
 
@@ -21,7 +21,7 @@
       "matches": ["*://*.udacity.com/*"],
       "css": ["hide-uda.css"]
     }, {
-      "matches": ["*://*.duckduckgo.com/?q=*"],
+      "matches": ["*://*.duckduckgo.com/?*"],
       "css": ["hide-ddg.css"]
     }, {
       "matches": [
